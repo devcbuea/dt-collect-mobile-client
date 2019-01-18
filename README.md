@@ -41,10 +41,20 @@ To contribute code to this repository,
 * To work on an issue, create a different branch based on the issue number, so for example I want to work on issue 54 which say build login screen, my branch name will be `#54_build_login_screen`. This is so that we can easily track changes
 * Once you are done working on said issue, push to your repo and then submit a Pull Request to the actual repository and be sure to request for a reviewer by selecting a reviewers name from the right hand side.
 * To learn more about this process, visit [here](http://rogerdudler.github.io/git-guide/)
+*NO PRs SHOULD BE SENT TO THE MASTER BRANCH PLEASE*
+
+## Reporting an Issue
+* In the case of an error(of course we are not perfect), or an issue you think will improve the project,
+* Click on issues, and create your issue.
+* Be sure to add a description and if possible screenshots.
 
 ## Documentation
 
 *Documentation will go here, in case it gets too much, we will move it to a `Documentation.md` file*
+
+## Reward System
+* Your first successfully merged PR gives you 500frs CFA
+* Your sencond gives you another 500frs CFA and your name added to the list of contributors
 
 ## License
 
