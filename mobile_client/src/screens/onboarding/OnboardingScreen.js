@@ -27,7 +27,7 @@ export default class OnboardingScreen extends Component {
 			<Swiper showsButtons={true} loop={false} >
 				<OnboardPage image={images[0]} heading={headings[0]} subHeading={subHeadings[0]} />
 				<OnboardPage image={images[1]} heading={headings[1]} subHeading={subHeadings[1]} />
-				<OnboardPage image={images[2]} heading={headings[2]} subHeading={subHeadings[2]} />
+				<OnboardPage image={images[2]} heading={headings[2]} subHeading={subHeadings[2]} actionButton={true} />
 			</Swiper>
 		);
 	}
