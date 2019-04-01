@@ -1,8 +1,7 @@
 import React, {Component} from 'react'; 
-import {StyleSheet, ScrollView, View, Text, Image} from 'react-native'; 
+import {StyleSheet, Button, View, Text, Image} from 'react-native';
 
 export default class OnboardPage extends Component {
-
 
 	render() {
 		const {heading, subHeading, image} = this.props; 
@@ -25,8 +24,24 @@ export default class OnboardPage extends Component {
 				<View>
 					<Text style={ headerH2Style }>{subHeading}</Text>
 				</View>
+				{this.displayStartBtn()}
 			</View>
 		);
+	}
+
+	displayStartBtn() {
+		const {heading, subHeading, image, index} = this.props;
+		if (index == 2) {
+			return (<Button
+					style={{ marginTop: 30 }}
+					onPress={()=>this.props.navigation.navigate('list')}
+					title="Start"
+					color="#3393FF"
+					accessibilityLabel="Getting started with data collection"
+				/>);
+		} else {
+			return <Text></Text>;
+		}
 	}
 }
 
